@@ -32,8 +32,8 @@ function DishGrid (props) {
                                     <Dish
                                         key={dish.id}
                                         tittel={dish.tittel}
-                                        pris={dish.pris}
                                         ingredienser={dish.ingredienser}
+                                        pris={dish.pris}
                                     />
                                 );
                             })}
