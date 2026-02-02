@@ -1,20 +1,24 @@
 .header {
     height: 150px;
-    background-color: rgb(255, 253, 218);
+    /* background-color: rgb(255, 253, 218); */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 5px;
-    margin-bottom: 40px;
 }
 .logo {
     font-size: 36px;
 }
 .title {
-    font-family: "Jacques Francois Shadow", serif;
-    font-weight: 500;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 600;
     font-size: 36px;
-    font-style: italic;
-    color: #6e2601;
+    letter-spacing: 1px;
+    color: #643200;
+    text-shadow:
+        1px 1px 0 #8a5520,
+        2px 2px 0 #9c6328,
+        3px 3px 0 #b07434,
+        3px 3px 4px rgba(0, 0, 0, 0.25);
 }

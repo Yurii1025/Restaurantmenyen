@@ -1,5 +1,6 @@
 import Dish from "../Dish/Dish"
 import styles from "./DishGrid.module.css"
+import deco from "../../assets/decoration/deco2.png"
 
 function DishGrid (props) {
     //We received a complete array of objects.
@@ -24,7 +25,9 @@ function DishGrid (props) {
 
                 return (
                      <div key={category} className={styles.category_section}>
-                        <h2 className={styles.category_title}>{category}</h2>
+                        <h2 className={styles.category_title}>{category}
+                            <img className={styles.deco} src={deco} alt="decoration"/>
+                        </h2>
 
                         <div className={styles.category_grid}>
                             {dishesInCategory.map( function (dish) {
