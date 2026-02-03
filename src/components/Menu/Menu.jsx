@@ -1,8 +1,8 @@
 import Dish from "../Dish/Dish"
-import styles from "./DishGrid.module.css"
+import styles from "./Menu.module.css"
 import deco from "../../assets/decoration/deco2.png"
 
-function DishGrid (props) {
+function Menu (props) {
     //We received a complete array of objects.
     let dishes = props.dishes;
     //Received all categories (with repetitions)
@@ -50,4 +50,4 @@ function DishGrid (props) {
 
 }
 
-export default DishGrid;
+export default Menu;

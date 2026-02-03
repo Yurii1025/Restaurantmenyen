@@ -1,7 +1,7 @@
 import './App.css'
 import Header from './components/Header/Header'
 import data from './components/data'
-import DishGrid from './components/DishGrid/DishGrid'
+import Menu from './components/Menu/Menu'
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
     <>
       <Header />
       
-      <DishGrid dishes={data}/>
+      <Menu dishes={data}/>
       </>
   )
 }
